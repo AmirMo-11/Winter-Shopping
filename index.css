@@ -14,7 +14,7 @@
   background-image: url('https://wallpaperaccess.com/thumb/136812.jpg');
   background-size: cover;
   background-position: center;
-  height: 600px; /* زوّد الارتفاع */
+  height: 700px; /* زوّد الارتفاع */
   border-radius: .5rem;
   position: relative; 
 }
@@ -47,4 +47,22 @@
 .navbar-nav {
   list-style: none !important;
   padding-left: 0 !important;
+}
+/* تصغير حجم الشريط العلوي الصغير */
+.bg-light.py-2 {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+}
+
+/* تصغير ارتفاع القوائم المنسدلة لكي لا تمدد السطر */
+.form-select-sm {
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    font-size: 0.85rem !important;
+}
+
+/* تصغير حواف الـ Navbar الافتراضية من بوتستراب */
+.navbar {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
 }
