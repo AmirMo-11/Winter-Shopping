@@ -1,0 +1,50 @@
+.body{
+  background-color: rgb(233, 133, 11);
+}
+
+.hero-img {
+  background-color: #f0f0f0;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  border-radius: .5rem;
+  overflow: hidden;
+}
+.hero-1 { /* مكان الصورة الكبيرة */
+  background-image: url('https://wallpaperaccess.com/thumb/136812.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 600px; /* زوّد الارتفاع */
+  border-radius: .5rem;
+  position: relative; 
+}
+.hero-2 { 
+  height: 165px;
+   background-image: url('https://wallpaperaccess.com/thumb/8279872.jpg'); 
+}
+.hero-3 { /* الصورتين الصغيرتين الثانية */
+  height: 165px;
+   background-image: url('https://wallpaperaccess.com/thumb/4806121.jpg'); 
+}
+
+.hero-2,
+.hero-3 {
+  background-size: cover;
+  background-position: center;
+  height: 290px; /* زود ارتفاع الصورتين الصغيرين برضو */
+  border-radius: .5rem;
+  position: relative;
+}
+
+
+
+.overlay-text {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  backdrop-filter: saturate(150%) blur(5px);
+}
+.navbar-nav {
+  list-style: none !important;
+  padding-left: 0 !important;
+}
